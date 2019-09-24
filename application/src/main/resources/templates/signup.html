@@ -1,0 +1,172 @@
+<html>
+<head>
+ <title>Sign up</title>
+ <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"></link>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.min.css"></link>
+ <style>
+ 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  background: #456;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #28d;
+}
+
+.login-header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .login-container is defined with p tags */
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+.login input[type="button"] {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+  background: #17c;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+ </style>
+</head>
+<body>
+ <div class="container">
+     <div class="login">
+  <div class="login-triangle"></div>
+  
+  <h2 class="login-header">Register</h2>
+
+  <form class="login-container">
+    <p> <input type="text" class="form-control" id="firstname" placeholder="First Name"></input></p>
+    <p> <input type="text" class="form-control" id="lastname" placeholder="Last name"></input></p>
+     <p><input type="text" class="form-control" id="email" onblur="dataexist()" placeholder="username@jackrutorial.com"></input></p>
+    <p><input type="password" class="form-control" id="password" placeholder="Password"></input></p>
+    <p> <select id="single" class="form-control">
+    	<option>-Select-</option>
+  		<option>Admin</option>
+  		<option>User</option>
+	</select> </p>
+    <p><input type="button" onclick="adduser()" value="Register"></p>
+    <p>Already Registered? <a href="/">Signin</a></p>
+  </form>
+  
+</div>
+ </div>
+</body>
+<script>
+function adduser()
+{
+	var a=$("#firstname").val();
+	var b=$("#lastname").val();
+	var c=$("#email").val();
+	var d=$("#password").val();  
+	var e=$( "#single" ).val();
+	//alert(e);
+	 $.ajax({
+		    url: "http://localhost:8080/signup",
+		    type: "POST",
+		    data: 
+		    	{
+		    	"firstname":a,
+		    	"lastname":b,
+		    	"email":c,
+		    	"password":d
+		    	},
+		    success: function (data) {
+		        alert(e+' Added Successfully');
+		        window.location.href="/"
+		    }
+		});
+	
+	}
+	
+	function dataexist()
+	{
+
+		var c=$("#email").val();
+		 $.ajax({
+			    url: "http://localhost:8080/access_denied",
+			    type: "POST",
+			    data: 
+			    	{
+			    	"email":c
+			    	},
+			    success: function (data) {
+			        alert(c+' Already Registered');
+			        $("#email").val("");
+			    }
+			});
+		
+	}
+</script>
+
+</html>

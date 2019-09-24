@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8"></meta>
+<meta http-equiv="x-ua-compatible" content="ie=edge"></meta>
+<title>Update Company Details</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous"></link>
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+	integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+	crossorigin="anonymous"></link>
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<style>
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #007bff;
+    text-align: left;
+    background-color: #456;
+}
+</style>
+</head>
+<body>
+	<div class="container my-5">
+	<h3> Update Company Details <a><span style="color:red" id="user"></span></a></h3>
+		<div class="card">
+			<div class="card-body">
+				<div class="col-md-12">
+					<form action="#"
+						th:action="@{/company/update/{id}(id=${student.id})}"
+						th:object="${student}" method="post">
+						<div class="row">
+							
+							<div class="form-group col-md-4">
+								<label for="name" class="col-form-label">Company Code</label> <input
+									type="text" th:field="*{mf11_compCode}" class="form-control" id="mf11_compCode"
+										></input> <span
+									th:if="${#fields.hasErrors('mf11_compCode')}" th:errors="*{mf11_compCode}"
+									class="text-danger"></span>
+							</div>
+							<div class="form-group col-md-4">
+								<label for="email" class="col-form-label">Company Code HRIS*</label> <input
+									type="text" th:field="*{mf11_compCodeHRIS}" class="form-control" id="mf11_compCodeHRIS"
+									></input> <span
+									th:if="${#fields.hasErrors('mf11_compCodeHRIS')}" th:errors="*{mf11_compCodeHRIS}"
+									class="text-danger"></span>
+							</div>
+
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Company Name</label> <input
+									type="text" th:field="*{mf11_compName}" class="form-control"
+									id="mf11_compName" ></input> <span
+									th:if="${#fields.hasErrors('mf11_compName')}" th:errors="*{mf11_compName}"
+									class="text-danger"></span>
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Company Abbr.Name*</label> <input
+									type="text" th:field="*{mf11_compAbbrName}" class="form-control"
+									id="mf11_compAbbrName"></input> <span
+									th:if="${#fields.hasErrors('mf11_compAbbrName')}" th:errors="*{mf11_compAbbrName}"
+									class="text-danger"></span>
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Company Reg.No</label> <input
+									type="text" th:field="*{mf11_compRegNo}" class="form-control"
+									id="mf11_compRegNo" ></input> <span
+									th:if="${#fields.hasErrors('mf11_compRegNo')}" th:errors="*{mf11_compRegNo}"
+									class="text-danger"></span>
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Company Logo</label> <input
+									type="file" th:field="*{mf11_compLogo}" class="form-control"
+									id="mf11_compLogo" ></input> <span
+									th:if="${#fields.hasErrors('mf11_compLogo')}" th:errors="*{mf11_compLogo}"
+									class="text-danger"></span>
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Company Active Date</label> <input
+									type="Date" th:field="*{Mf11_compActiveDate}" class="form-control"
+									id="Mf11_compActiveDate"></input> <span
+									th:if="${#fields.hasErrors('Mf11_compActiveDate')}" th:errors="*{Mf11_compActiveDate}"
+									class="text-danger"></span>
+							</div>
+							
+				<div class="row">
+							<div class="form-group col-md-4">
+								<label for="name" class="col-form-label">Status</label> 
+									<select  class="form-control" th:field="*{mf11_isActive}" id="mf11_isActive" onchange="a()">
+										<option th:value="true" th:text="Active"></option>
+   										 <option th:value="false" th:text="Deactive"></option>
+									</select>	
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="email" class="col-form-label">Created By</label> <input
+									type="text" th:field="*{mf11_createdBy}" class="form-control" id="mf11_createdBy"
+									readonly="readonly"></input> 
+							</div>
+
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Created On</label> <input
+									type="text" th:field="*{mf11_createdOn}" class="form-control"
+									id="mf11_createdOn" readonly="readonly"></input> 
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Updated By</label> <input
+									type="text" th:field="*{mf11_lastModifiedBy}" class="form-control"
+									id="mf11_lastModifiedBy" readonly="readonly"></input>
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Updated On</label> <input
+									type="text" th:field="*{mf11_lastModifiedOn}" class="form-control"
+									id="mf11_lastModifiedOn" readonly="readonly"></input> 
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="email" class="col-form-label">Deactivated By</label> <input
+									type="text" th:field="*{mf11_deactivatedBy}" class="form-control" id="mf11_deactivatedBy"
+									readonly="readonly"></input> 
+							</div>
+
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Deactivated On</label> <input
+									type="text" th:field="*{mf11_deactivatedOn}" class="form-control"
+									id="mf11_deactivatedOn" readonly="readonly"></input>
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Reactivated By</label> <input
+									type="text" th:field="*{mf11_reactivatedBye}" class="form-control"
+									id="mf11_reactivatedBye" readonly="readonly"></input> 
+							</div>
+							
+							<div class="form-group col-md-4">
+								<label for="phoneNo" class="col-form-label">Reactivated On</label> <input
+									type="text" th:field="*{mf11_reactivatedOn}" class="form-control"
+									id="mf11_reactivatedOn" readonly="readonly"></input> 
+							</div>
+							</div>
+							
+							<div class="col-md-6">
+								<input type="submit" class="btn btn-primary" value="Update Company"></input>
+							</div>
+
+							<div class="form-group col-md-8"></div>
+							
+							
+							
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+
+if(localStorage.getItem('email')==null)
+{
+window.location.href='/';
+}
+		
+ $("#user").text(localStorage.getItem('email'));
+ 
+ if($("#mf11_isActive").val() == 'true')
+ {
+
+ $("#mf11_deactivatedBy").val("-");
+ $("#mf11_deactivatedOn").val("-");
+ }
+else
+ {
+
+ $("#mf11_reactivatedBy").val(" ");
+ $("#mf11_reactivatedOn").val(" ");
+
+ }
+ 
+ function a()
+ {
+	 
+	 if($("#mf11_isActive").val() == 'true')
+		 {
+		 $("#mf11_reactivatedBye").val(localStorage.getItem('email'));
+		 $("#mf11_deactivatedBy").val("-");
+		 $("#mf11_deactivatedOn").val("-");
+		 }
+	 else
+		 {
+	 		$("#mf11_deactivatedBy").val(localStorage.getItem('email'));
+		 $("#mf11_reactivatedBye").val("-");
+		 $("#mf11_reactivatedOn").val("-");
+
+		 }
+ }
+
+</script>
+</html>
