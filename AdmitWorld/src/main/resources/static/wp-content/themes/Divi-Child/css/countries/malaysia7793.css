@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	malaysia: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* malaysia Colors */
+body#country-malaysia #et-secondary-nav li ul, 
+body#country-malaysia  #top-header,
+body#country-malaysia  #sidebar .frm_form_widget,
+body#country-malaysia .wof-wrapper .section-heading p:after,
+body#country-malaysia #why-study-in,
+body#country-malaysia  div#hero-wrapper{
+	background-color: #3e6372 !important;
+}
+
+body#country-malaysia h2, 	
+body#country-malaysia h3, 
+body#country-malaysia h4, 
+body#country-malaysia h5,
+body#country-malaysia .global-stats .et-pb-icon,
+body#country-malaysia p#breadcrumbs a{
+	color: #ff0042;
+}
+
+body#country-malaysia .quick-links.box-style-01 li a:hover,
+body#country-malaysia .quick-links.box-style-01 li.active a,
+body#country-malaysia .wof-listing .wof-university,
+body#country-malaysia #how-can-we-help-eop h2{
+	color: #ff0042;
+}
+
+
+body#country-malaysia #sidebar  button.frm_button_submit{
+    background-color: #ff0042 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-malaysia .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-malaysia .credentials-section-heading p:after,
+body#country-malaysia .wof-listing .wof-name,
+body#country-malaysia #how-can-we-help-eop h2:after
+ {
+	background-color: #ff0042 !important;
+}
+
+
+body#country-malaysia div#how-can-we-help-eop
+ {
+	border-color: #ff0042;
+}
+
+body#country-malaysia #why-study-in h2,
+body#country-malaysia #why-study-in a {
+	color: #fff;
+}
+
+body#country-malaysia #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

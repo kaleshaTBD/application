@@ -1,0 +1,69 @@
+
+/* Colors  Starts 
+	italy: 
+		Base Color: Blue: #c69e2f;
+		Accent Color: Red: #c00026
+
+*/
+
+/* italy Colors */
+body#country-italy #et-secondary-nav li ul, 
+body#country-italy  #top-header,
+body#country-italy  #sidebar .frm_form_widget,
+body#country-italy .wof-wrapper .section-heading p:after,
+body#country-italy #why-study-in,
+body#country-italy  div#hero-wrapper{
+	background-color: #A13D63 !important;
+}
+
+body#country-italy h2, 
+body#country-italy h3, 
+body#country-italy h4, 
+body#country-italy h5,
+body#country-italy .global-stats .et-pb-icon,
+body#country-italy p#breadcrumbs a{
+	color: #F7A278;
+}
+
+body#country-italy .quick-links.box-style-01 li a:hover,
+body#country-italy .quick-links.box-style-01 li.active a,
+body#country-italy .wof-listing .wof-university,
+body#country-italy #how-can-we-help-eop h2{
+	color: #F7A278;
+}
+
+
+body#country-italy #sidebar  button.frm_button_submit{
+    background-color: #F7A278 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-italy .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-italy .credentials-section-heading p:after,
+body#country-italy .wof-listing .wof-name,
+body#country-italy #how-can-we-help-eop h2:after
+ {
+	background-color: #F7A278 !important;
+}
+
+
+body#country-italy div#how-can-we-help-eop
+ {
+	border-color: #F7A278;
+}
+
+body#country-italy #why-study-in h2,
+body#country-italy #why-study-in a {
+	color: #fff;
+}
+
+body#country-italy #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

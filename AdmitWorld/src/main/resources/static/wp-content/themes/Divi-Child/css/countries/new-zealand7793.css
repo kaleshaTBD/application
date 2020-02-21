@@ -1,0 +1,75 @@
+
+/* Colors  Starts 
+	new-zealand: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* new-zealand Colors */
+body#country-new-zealand #et-secondary-nav li ul, 
+body#country-new-zealand  #top-header,
+body#country-new-zealand  #sidebar .frm_form_widget,
+body#country-new-zealand .wof-wrapper .section-heading p:after,
+body#country-new-zealand #why-study-in,
+body#country-new-zealand  div#hero-wrapper{
+	background-color: #171717 !important;
+}
+
+body#country-new-zealand  #sidebar .frm_form_widget{
+	background-color: #21627c !important;
+}
+
+body#country-new-zealand h2, 
+body#country-new-zealand h3, 
+body#country-new-zealand h4, 
+body#country-new-zealand h5,
+body#country-new-zealand .global-stats .et-pb-icon,
+body#country-new-zealand p#breadcrumbs a{
+	color: #258dc1;
+}
+
+body#country-new-zealand .quick-links.box-style-01 li a:hover,
+body#country-new-zealand .quick-links.box-style-01 li.active a,
+body#country-new-zealand .wof-listing .wof-university,
+body#country-new-zealand #how-can-we-help-eop h2{
+	color: #21627c;
+}
+
+
+body#country-new-zealand #sidebar  button.frm_button_submit{
+    background-color: #258dc1 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-new-zealand .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-new-zealand .credentials-section-heading p:after,
+body#country-new-zealand .wof-listing .wof-name,
+body#country-new-zealand #how-can-we-help-eop h2:after
+ {
+	background-color: #21627c !important;
+}
+
+
+body#country-new-zealand div#how-can-we-help-eop
+ {
+	border-color: #258dc1;
+}
+
+body#country-new-zealand #why-study-in h2,
+body#country-new-zealand #why-study-in a {
+	color: #fff;
+}
+
+body#country-new-zealand #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

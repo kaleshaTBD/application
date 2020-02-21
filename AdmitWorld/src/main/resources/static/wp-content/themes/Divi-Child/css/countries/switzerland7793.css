@@ -1,0 +1,80 @@
+
+/* Colors  Starts 
+	switzerland: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* switzerland Colors */
+body#country-switzerland #et-secondary-nav li ul, 
+body#country-switzerland  #top-header,
+body#country-switzerland  #sidebar .frm_form_widget,
+body#country-switzerland .wof-wrapper .section-heading p:after,
+body#country-switzerland #why-study-in,
+body#country-switzerland div#hero-wrapper{
+	background-color: #da202c !important;
+}
+
+body#country-switzerland  #sidebar .frm_form_widget{
+	background-color: #f6f6f6 !important;
+	order: 1px solid #e3e3e3 !important;
+}
+
+body#country-switzerland h2, 
+body#country-switzerland h3, 
+body#country-switzerland h4, 
+body#country-switzerland h5,
+body#country-switzerland .global-stats .et-pb-icon,
+body#country-switzerland p#breadcrumbs a{
+	color: #da202c;
+}
+
+body#country-switzerland .quick-links.box-style-01 li a:hover,
+body#country-switzerland .quick-links.box-style-01 li.active a,
+body#country-switzerland .wof-listing .wof-university,
+body#country-switzerland #how-can-we-help-eop h2{
+	color: #da202c;
+}
+
+
+body#country-switzerland #sidebar  button.frm_button_submit{
+    background-color: #da202c !important;
+    color: #fff !important;
+}
+
+#sidebar .frm_form_widget h3{
+	color: #000;
+}
+
+/*
+body#country-switzerland .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-switzerland .credentials-section-heading p:after,
+body#country-switzerland .wof-listing .wof-name,
+body#country-switzerland #how-can-we-help-eop h2:after
+ {
+	background-color: #da202c !important;
+}
+
+
+body#country-switzerland div#how-can-we-help-eop
+ {
+	border-color: #da202c;
+}
+
+body#country-switzerland #why-study-in h2,
+body#country-switzerland #why-study-in a {
+	color: #fff;
+}
+
+body#country-switzerland #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

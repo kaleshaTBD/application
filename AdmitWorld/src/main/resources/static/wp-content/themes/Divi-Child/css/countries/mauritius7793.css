@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	mauritius: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* mauritius Colors */
+body#country-mauritius #et-secondary-nav li ul, 
+body#country-mauritius  #top-header,
+body#country-mauritius  #sidebar .frm_form_widget,
+body#country-mauritius .wof-wrapper .section-heading p:after,
+body#country-mauritius #why-study-in,
+body#country-mauritius  div#hero-wrapper{
+	background-color: #61c0e4 !important;
+}
+
+body#country-mauritius h2, 
+body#country-mauritius h3, 
+body#country-mauritius h4, 
+body#country-mauritius h5,
+body#country-mauritius .global-stats .et-pb-icon,
+body#country-mauritius p#breadcrumbs a{
+	color: #61c0e4;
+}
+
+body#country-mauritius .quick-links.box-style-01 li a:hover,
+body#country-mauritius .quick-links.box-style-01 li.active a,
+body#country-mauritius .wof-listing .wof-university,
+body#country-mauritius #how-can-we-help-eop h2{
+	color: #e54e4b;
+}
+
+
+body#country-mauritius #sidebar  button.frm_button_submit{
+    background-color: #e54e4b !important;
+    color: #fff !important;
+}
+
+/*
+body#country-mauritius .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-mauritius .credentials-section-heading p:after,
+body#country-mauritius .wof-listing .wof-name,
+body#country-mauritius #how-can-we-help-eop h2:after
+ {
+	background-color: #e54e4b !important;
+}
+
+
+body#country-mauritius div#how-can-we-help-eop
+ {
+	border-color: #e54e4b;
+}
+
+body#country-mauritius #why-study-in h2,
+body#country-mauritius #why-study-in a {
+	color: #fff;
+}
+
+body#country-mauritius #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

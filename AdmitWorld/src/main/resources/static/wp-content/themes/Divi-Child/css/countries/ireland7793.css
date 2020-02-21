@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	ireland: 
+		Base Color: Blue: #6DAB3C;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* ireland Colors */
+body#country-ireland #et-secondary-nav li ul, 
+body#country-ireland  #top-header,
+body#country-ireland  #sidebar .frm_form_widget,
+body#country-ireland .wof-wrapper .section-heading p:after,
+body#country-ireland #why-study-in,
+body#country-ireland  div#hero-wrapper{
+	background-color: #6DAB3C !important;
+}
+
+body#country-ireland h2, 
+body#country-ireland h3, 
+body#country-ireland h4, 
+body#country-ireland h5,
+body#country-ireland .global-stats .et-pb-icon,
+body#country-ireland p#breadcrumbs a{
+	color: #6DAB3C;
+}
+
+body#country-ireland .quick-links.box-style-01 li a:hover,
+body#country-ireland .quick-links.box-style-01 li.active a,
+body#country-ireland .wof-listing .wof-university,
+body#country-ireland #how-can-we-help-eop h2{
+	color: #FD9601;
+}
+
+
+body#country-ireland #sidebar  button.frm_button_submit{
+    background-color: #FD9601 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-ireland .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-ireland .credentials-section-heading p:after,
+body#country-ireland .wof-listing .wof-name,
+body#country-ireland #how-can-we-help-eop h2:after
+ {
+	background-color: #FD9601 !important;
+}
+
+
+body#country-ireland div#how-can-we-help-eop
+ {
+	border-color: #FD9601;
+}
+
+body#country-ireland #why-study-in h2,
+body#country-ireland #why-study-in a {
+	color: #fff;
+}
+
+body#country-ireland #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

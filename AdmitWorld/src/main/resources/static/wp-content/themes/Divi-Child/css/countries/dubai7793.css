@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	dubai: 
+		Base Color: Blue: #FFBF00;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* dubai Colors */
+body#country-dubai #et-secondary-nav li ul, 
+body#country-dubai  #top-header,
+body#country-dubai  #sidebar .frm_form_widget,
+body#country-dubai .wof-wrapper .section-heading p:after,
+body#country-dubai #why-study-in,
+body#country-dubai  div#hero-wrapper{
+	background-color: #FFBF00 !important;
+}
+
+body#country-dubai h2, 
+body#country-dubai h3, 
+body#country-dubai h4, 
+body#country-dubai h5,
+body#country-dubai .global-stats .et-pb-icon,
+body#country-dubai p#breadcrumbs a{
+	color: #FFBF00;
+}
+
+body#country-dubai .quick-links.box-style-01 li a:hover,
+body#country-dubai .quick-links.box-style-01 li.active a,
+body#country-dubai .wof-listing .wof-university,
+body#country-dubai #how-can-we-help-eop h2{
+	color: #b69859;
+}
+
+
+body#country-dubai #sidebar  button.frm_button_submit{
+    background-color: #b69859 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-dubai .box-style-01 {
+	border-color: #FFBF00;
+} */
+
+
+body#country-dubai .credentials-section-heading p:after,
+body#country-dubai .wof-listing .wof-name,
+body#country-dubai #how-can-we-help-eop h2:after
+ {
+	background-color: #b69859 !important;
+}
+
+
+body#country-dubai div#how-can-we-help-eop
+ {
+	border-color: #b69859;
+}
+
+body#country-dubai #why-study-in h2,
+body#country-dubai #why-study-in a {
+	color: #fff;
+}
+
+body#country-dubai #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

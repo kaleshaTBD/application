@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	spain: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* spain Colors */
+body#country-spain #et-secondary-nav li ul, 
+body#country-spain  #top-header,
+body#country-spain  #sidebar .frm_form_widget,
+body#country-spain .wof-wrapper .section-heading p:after,
+body#country-spain #why-study-in,
+body#country-spain div#hero-wrapper{
+	background-color: #AA151B !important;
+}
+
+body#country-spain h2, 
+body#country-spain h3, 
+body#country-spain h4, 
+body#country-spain h5,
+body#country-spain .global-stats .et-pb-icon,
+body#country-spain p#breadcrumbs a{
+	color: #AA151B;
+}
+
+body#country-spain .quick-links.box-style-01 li a:hover,
+body#country-spain .quick-links.box-style-01 li.active a,
+body#country-spain .wof-listing .wof-university,
+body#country-spain #how-can-we-help-eop h2{
+	color: #c00026;
+}
+
+
+body#country-spain #sidebar  button.frm_button_submit{
+    background-color: #F1BF00 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-spain .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-spain .credentials-section-heading p:after,
+body#country-spain .wof-listing .wof-name,
+body#country-spain #how-can-we-help-eop h2:after
+ {
+	background-color: #c00026 !important;
+}
+
+
+body#country-spain div#how-can-we-help-eop
+ {
+	border-color: #c00026;
+}
+
+body#country-spain #why-study-in h2,
+body#country-spain #why-study-in a {
+	color: #fff;
+}
+
+body#country-spain #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

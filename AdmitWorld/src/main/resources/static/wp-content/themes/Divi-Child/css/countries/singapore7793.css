@@ -1,0 +1,72 @@
+
+/* Colors  Starts 
+	singapore: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* singapore Colors */
+body#country-singapore #et-secondary-nav li ul, 
+body#country-singapore  #top-header,
+body#country-singapore  #sidebar .frm_form_widget,
+body#country-singapore .wof-wrapper .section-heading p:after,
+body#country-singapore #why-study-in,
+body#country-singapore div#hero-wrapper
+{
+	background-color: #68B684 !important;
+}
+
+body#country-singapore h2, 
+body#country-singapore h3, 
+body#country-singapore h4, 
+body#country-singapore h5,
+body#country-singapore .global-stats .et-pb-icon,
+body#country-singapore p#breadcrumbs a{
+	color: #68B684;
+}
+
+body#country-singapore .quick-links.box-style-01 li a:hover,
+body#country-singapore .quick-links.box-style-01 li.active a,
+body#country-singapore .wof-listing .wof-university,
+body#country-singapore #how-can-we-help-eop h2{
+	color: #f4333d;
+}
+
+
+body#country-singapore #sidebar  button.frm_button_submit{
+    background-color: #f4333d !important;
+    color: #fff !important;
+}
+
+/*
+body#country-singapore .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-singapore .credentials-section-heading p:after,
+body#country-singapore .wof-listing .wof-name,
+body#country-singapore #how-can-we-help-eop h2:after
+ {
+	background-color: #f4333d !important;
+}
+
+
+body#country-singapore div#how-can-we-help-eop
+ {
+	border-color: #f4333d;
+}
+
+body#country-singapore #why-study-in h2,
+body#country-singapore #why-study-in a {
+	color: #fff;
+}
+
+body#country-singapore #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

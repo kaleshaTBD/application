@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	australia: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* australia Colors */
+body#country-australia #et-secondary-nav li ul, 
+body#country-australia  #top-header,
+body#country-australia  #sidebar .frm_form_widget,
+body#country-australia .wof-wrapper .section-heading p:after,
+body#country-australia #why-study-in,
+body#country-australia  div#hero-wrapper{
+	background-color: #00a0af !important;
+}
+
+body#country-australia h2, 
+body#country-australia h3, 
+body#country-australia h4, 
+body#country-australia h5,
+body#country-australia .global-stats .et-pb-icon,
+body#country-australia p#breadcrumbs a{
+	color: #00a0af;
+}
+
+body#country-australia .quick-links.box-style-01 li a:hover,
+body#country-australia .quick-links.box-style-01 li.active a,
+body#country-australia .wof-listing .wof-university,
+body#country-australia #how-can-we-help-eop h2{
+	color: #004165;
+}
+
+
+body#country-australia #sidebar  button.frm_button_submit{
+    background-color: #004165 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-australia .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-australia .credentials-section-heading p:after,
+body#country-australia .wof-listing .wof-name,
+body#country-australia #how-can-we-help-eop h2:after
+ {
+	background-color: #004165 !important;
+}
+
+
+body#country-australia div#how-can-we-help-eop
+ {
+	border-color: #004165;
+}
+
+body#country-australia #why-study-in h2,
+body#country-australia #why-study-in a {
+	color: #fff;
+}
+
+body#country-australia #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/
