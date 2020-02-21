@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	USA: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* USA Colors */
+body#country-usa #et-secondary-nav li ul, 
+body#country-usa  #top-header,
+body#country-usa  #sidebar .frm_form_widget,
+body#country-usa .wof-wrapper .section-heading p:after,
+body#country-usa #why-study-in,
+body#country-usa div#hero-wrapper{
+	background-color: #00A8E8 !important;
+}
+
+body#country-usa h2, 
+body#country-usa h3, 
+body#country-usa h4, 
+body#country-usa h5,
+body#country-usa .global-stats .et-pb-icon,
+body#country-usa p#breadcrumbs a{
+	color: #00A8E8;
+}
+
+body#country-usa .quick-links.box-style-01 li a:hover,
+body#country-usa .quick-links.box-style-01 li.active a,
+body#country-usa .wof-listing .wof-university,
+body#country-usa #how-can-we-help-eop h2{
+	color: #c00026;
+}
+
+
+body#country-usa #sidebar  button.frm_button_submit{
+    background-color: #c00026 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-usa .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-usa .credentials-section-heading p:after,
+body#country-usa .wof-listing .wof-name,
+body#country-usa #how-can-we-help-eop h2:after
+ {
+	background-color: #c00026 !important;
+}
+
+
+body#country-usa div#how-can-we-help-eop
+ {
+	border-color: #c00026;
+}
+
+body#country-usa #why-study-in h2,
+body#country-usa #why-study-in a {
+	color: #fff;
+}
+
+body#country-usa #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	france: 
+		Base Color: Blue: #5dabcb;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* france Colors */
+body#country-france #et-secondary-nav li ul, 
+body#country-france  #top-header,
+body#country-france  #sidebar .frm_form_widget,
+body#country-france .wof-wrapper .section-heading p:after,
+body#country-france #why-study-in,
+body#country-france  div#hero-wrapper{
+	background-color: #5dabcb !important;
+}
+
+body#country-france h2, 
+body#country-france h3, 
+body#country-france h4, 
+body#country-france h5,
+body#country-france .global-stats .et-pb-icon,
+body#country-france p#breadcrumbs a{
+	color: #5dabcb;
+}
+
+body#country-france .quick-links.box-style-01 li a:hover,
+body#country-france .quick-links.box-style-01 li.active a,
+body#country-france .wof-listing .wof-university,
+body#country-france #how-can-we-help-eop h2{
+	color: #007aa1;
+}
+
+
+body#country-france #sidebar  button.frm_button_submit{
+    background-color: #f9cb4d !important;
+    color: #175265 !important;
+}
+
+/*
+body#country-france .box-style-01 {
+	border-color: #5dabcb;
+} */
+
+
+body#country-france .credentials-section-heading p:after,
+body#country-france .wof-listing .wof-name,
+body#country-france #how-can-we-help-eop h2:after
+ {
+	background-color: #007aa1 !important;
+}
+
+
+body#country-france div#how-can-we-help-eop
+ {
+	border-color: #007aa1;
+}
+
+body#country-france #why-study-in h2,
+body#country-france #why-study-in a {
+	color: #fff;
+}
+
+body#country-france #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	philippines: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* philippines Colors */
+body#country-philippines #et-secondary-nav li ul, 
+body#country-philippines  #top-header,
+body#country-philippines  #sidebar .frm_form_widget,
+body#country-philippines .wof-wrapper .section-heading p:after,
+body#country-philippines #why-study-in,
+body#country-philippines div#hero-wrapper{
+	background-color: #5BBDCC !important;
+}
+
+body#country-philippines h2, 
+body#country-philippines h3, 
+body#country-philippines h4, 
+body#country-philippines h5,
+body#country-philippines .global-stats .et-pb-icon,
+body#country-philippines p#breadcrumbs a{
+	color: #5BBDCC;
+}
+
+body#country-philippines .quick-links.box-style-01 li a:hover,
+body#country-philippines .quick-links.box-style-01 li.active a,
+body#country-philippines .wof-listing .wof-university,
+body#country-philippines #how-can-we-help-eop h2{
+	color: #F95738;
+}
+
+
+body#country-philippines #sidebar  button.frm_button_submit{
+    background-color: #F95738 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-philippines .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-philippines .credentials-section-heading p:after,
+body#country-philippines .wof-listing .wof-name,
+body#country-philippines #how-can-we-help-eop h2:after
+ {
+	background-color: #F95738 !important;
+}
+
+
+body#country-philippines div#how-can-we-help-eop
+ {
+	border-color: #F95738;
+}
+
+body#country-philippines #why-study-in h2,
+body#country-philippines #why-study-in a {
+	color: #fff;
+}
+
+body#country-philippines #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

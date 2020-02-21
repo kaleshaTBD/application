@@ -1,0 +1,75 @@
+
+/* Colors  Starts 
+	uk: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* uk Colors */
+body#country-uk #et-secondary-nav li ul, 
+body#country-uk  #top-header,
+body#country-uk  #sidebar .frm_form_widget,
+body#country-uk .wof-wrapper .section-heading p:after,
+body#country-uk #why-study-in,
+body#country-uk div#hero-wrapper{
+	background-color: #e12d36 !important;
+}
+
+body#country-uk h2, 
+body#country-uk h3, 
+body#country-uk h4, 
+body#country-uk h5,
+body#country-uk .global-stats .et-pb-icon,
+body#country-uk p#breadcrumbs a{
+	color: #e12d36;
+}
+
+body#country-uk .quick-links.box-style-01 li a:hover,
+body#country-uk .quick-links.box-style-01 li.active a,
+body#country-uk .wof-listing .wof-university,
+body#country-uk #how-can-we-help-eop h2{
+	color: #e12d36;
+}
+
+
+body#country-uk #sidebar  button.frm_button_submit{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+body#country-uk #sidebar .frm_form_widget h3{
+	color: #fff;
+}
+
+/*
+body#country-uk .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-uk .credentials-section-heading p:after,
+body#country-uk .wof-listing .wof-name,
+body#country-uk #how-can-we-help-eop h2:after
+ {
+	background-color: #e12d36 !important;
+}
+
+
+body#country-uk div#how-can-we-help-eop
+ {
+	border-color: #e12d36;
+}
+
+body#country-uk #why-study-in h2,
+body#country-uk #why-study-in a {
+	color: #fff;
+}
+
+body#country-uk #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

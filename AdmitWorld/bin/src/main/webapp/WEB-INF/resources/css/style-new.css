@@ -1,0 +1,155 @@
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #888;
+    width: 90%;
+}
+h4{
+	text-align:center;
+	color:#003B71;
+	font-weight:bold;
+	font-family:arial;
+	text-transform:uppercase;
+}
+
+.icon-data-back-yes .tooltiptext {
+    visibility: hidden;
+    width: 50%;
+    background-color:#c34628;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.icon-stored-back-yes .Stored-text {
+    visibility: hidden;
+    width: 50%;
+    background-color:#c34628;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}	
+.current-backup .tooltiptext {
+    visibility: hidden;
+    width: 50%;
+    background-color:#c34628;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.tested .tooltiptext {
+    visibility: hidden;
+    width: 50%;
+    background-color:#c34628;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.designated-crisis .crisis {
+    visibility: hidden;
+    width: 50%;
+    background-color:#c34628;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.crisis-emergency .tooltiptext{
+	 visibility: hidden;
+    width: 50%;
+    background-color:#c34628;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.update-ehs .tooltiptext{
+	 visibility: hidden;
+    width: 50%;
+    background-color:#c34628;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.backup-onsite .tooltiptext{
+	 visibility: hidden;
+    width: 50%;
+    background-color:#c34628;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+.backup-sufficient .tooltiptext{
+	 visibility: hidden;
+    width: 50%;
+    background-color:#c34628;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+}
+	
+
+
+.icon-data-back-yes:hover .tooltiptext {
+    visibility: visible;
+}
+.backup-onsite:hover .tooltiptext {
+    visibility: visible;
+}
+.backup-sufficient:hover .tooltiptext {
+    visibility: visible;
+}
+.designated-crisis:hover .crisis {
+    visibility: visible;
+}
+
+.icon-stored-back-yes:hover .Stored-text {
+    visibility: visible;
+}
+.current-backup:hover .tooltiptext {
+    visibility: visible;
+}
+.tested:hover .tooltiptext {
+    visibility: visible;
+}
+.crisis-emergency:hover .tooltiptext {
+    visibility: visible;
+}
+.update-ehs:hover .tooltiptext {
+    visibility: visible;
+}
+.tablinks .active:hover {
+    background-color: #666;
+    color: white;
+}

@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	canada: 
+		Base Color: Blue: #e01e2b;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* canada Colors */
+body#country-canada #et-secondary-nav li ul, 
+body#country-canada  #top-header,
+body#country-canada  #sidebar .frm_form_widget,
+body#country-canada .wof-wrapper .section-heading p:after,
+body#country-canada #why-study-in,
+body#country-canada  div#hero-wrapper{
+	background-color: #e01e2b !important;
+}
+
+body#country-canada h2, 
+body#country-canada h3, 
+body#country-canada h4, 
+body#country-canada h5,
+body#country-canada .global-stats .et-pb-icon,
+body#country-canada p#breadcrumbs a{
+	color: #b31706;
+}
+
+body#country-canada .quick-links.box-style-01 li a:hover,
+body#country-canada .quick-links.box-style-01 li.active a,
+body#country-canada .wof-listing .wof-university,
+body#country-canada #how-can-we-help-eop h2{
+	color: #b31706;
+}
+
+
+body#country-canada #sidebar  button.frm_button_submit{
+    background-color: #fff !important;
+    color: #e01e2b !important;
+}
+
+/*
+body#country-canada .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-canada .credentials-section-heading p:after,
+body#country-canada .wof-listing .wof-name,
+body#country-canada #how-can-we-help-eop h2:after
+ {
+	background-color: #b31706 !important;
+}
+
+
+body#country-canada div#how-can-we-help-eop
+ {
+	border-color: #b31706;
+}
+
+body#country-canada #why-study-in h2,
+body#country-canada #why-study-in a {
+	color: #fff;
+}
+
+body#country-canada #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

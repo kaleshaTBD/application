@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	germany: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* germany Colors */
+body#country-germany #et-secondary-nav li ul, 
+body#country-germany  #top-header,
+body#country-germany  #sidebar .frm_form_widget,
+body#country-germany .wof-wrapper .section-heading p:after,
+body#country-germany #why-study-in,
+body#country-germany  div#hero-wrapper{
+	background-color: #F6AA1C !important;
+}
+
+body#country-germany h2, 
+body#country-germany h3, 
+body#country-germany h4, 
+body#country-germany h5,
+body#country-germany .global-stats .et-pb-icon,
+body#country-germany p#breadcrumbs a{
+	color: #dc0000;
+}
+
+body#country-germany .quick-links.box-style-01 li a:hover,
+body#country-germany .quick-links.box-style-01 li.active a,
+body#country-germany .wof-listing .wof-university,
+body#country-germany #how-can-we-help-eop h2{
+	color: #dc0000;
+}
+
+
+body#country-germany #sidebar  button.frm_button_submit{
+    background-color: #c00026 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-germany .box-style-01 {
+	border-color: #F6AA1C;
+} */
+
+
+body#country-germany .credentials-section-heading p:after,
+body#country-germany .wof-listing .wof-name,
+body#country-germany #how-can-we-help-eop h2:after
+ {
+	background-color: #dc0000 !important;
+}
+
+
+body#country-germany div#how-can-we-help-eop
+ {
+	border-color: #dc0000;
+}
+
+body#country-germany #why-study-in h2,
+body#country-germany #why-study-in a {
+	color: #fff;
+}
+
+body#country-germany #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/

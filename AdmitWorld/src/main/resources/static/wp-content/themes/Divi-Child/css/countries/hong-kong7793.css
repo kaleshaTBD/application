@@ -1,0 +1,71 @@
+
+/* Colors  Starts 
+	hong-kong: 
+		Base Color: Blue: #00A8E8;
+		Accent Color: Red: #c00026
+
+
+
+*/
+
+/* hong-kong Colors */
+body#country-hong-kong #et-secondary-nav li ul, 
+body#country-hong-kong  #top-header,
+body#country-hong-kong  #sidebar .frm_form_widget,
+body#country-hong-kong .wof-wrapper .section-heading p:after,
+body#country-hong-kong #why-study-in,
+body#country-hong-kong  div#hero-wrapper{
+	background-color: #f89406 !important;
+}
+
+body#country-hong-kong h2, 
+body#country-hong-kong h3, 
+body#country-hong-kong h4, 
+body#country-hong-kong h5,
+body#country-hong-kong .global-stats .et-pb-icon,
+body#country-hong-kong p#breadcrumbs a{
+	color: #CE4257;
+}
+
+body#country-hong-kong .quick-links.box-style-01 li a:hover,
+body#country-hong-kong .quick-links.box-style-01 li.active a,
+body#country-hong-kong .wof-listing .wof-university,
+body#country-hong-kong #how-can-we-help-eop h2{
+	color: #CE4257;
+}
+
+
+body#country-hong-kong #sidebar  button.frm_button_submit{
+    background-color: #CE4257 !important;
+    color: #fff !important;
+}
+
+/*
+body#country-hong-kong .box-style-01 {
+	border-color: #00A8E8;
+} */
+
+
+body#country-hong-kong .credentials-section-heading p:after,
+body#country-hong-kong .wof-listing .wof-name,
+body#country-hong-kong #how-can-we-help-eop h2:after
+ {
+	background-color: #CE4257 !important;
+}
+
+
+body#country-hong-kong div#how-can-we-help-eop
+ {
+	border-color: #CE4257;
+}
+
+body#country-hong-kong #why-study-in h2,
+body#country-hong-kong #why-study-in a {
+	color: #fff;
+}
+
+body#country-hong-kong #why-study-in a {
+	border-color: #fff !important;
+}
+
+/*********** Colors  End ***********/
